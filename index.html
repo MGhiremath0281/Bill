@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kalburgi Khanavali - Bill Generator</title>
+<title>Kalaburgi Khanavali - Bill Generator</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700&family=Cutive+Mono&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.28/jspdf.plugin.autotable.min.js"></script>
@@ -195,7 +195,7 @@ button.pdf-btn:hover { background: #a0522d; }
 <div class="bill-container">
     <header>
         <img src="KK-Logo.jpeg" alt="Khanavali Logo" id="logo"> 
-        <h1>KALBURGI KHANAVALI</h1>
+        <h1>KALABURGI KHANAVALI</h1>
         <p>Authentic North Karnataka Cuisine</p>
         <p>Vyalikaval HBCS Layout, Nagavara, Bengaluru – 560045</p>
         <p>(Near Domino's Pizza) | Contact: +91 97433 77079</p>
@@ -419,7 +419,7 @@ function downloadPDF(){
     doc.setFontSize(20); 
     doc.setFont("Courier","bold"); 
     doc.setTextColor(primary_dark_brown[0], primary_dark_brown[1], primary_dark_brown[2]);
-    doc.text("KALBURGI KHANAVALI", pageWidth/2, y_start, {align:'center'});
+    doc.text("KALABURGI KHANAVALI", pageWidth/2, y_start, {align:'center'});
     y_start += 6;
     
     // Subtitle & Address
@@ -547,7 +547,7 @@ function downloadPDF(){
     
     doc.setFontSize(8);
     // 2. Business Name - aligned directly below the name
-    doc.text("KALBURGI KHANAVALI", signatureX, finalY, {align:'right'});
+    doc.text("KALABURGI KHANAVALI", signatureX, finalY, {align:'right'});
     
     finalY += 8; // Add space before Thank You box
     
